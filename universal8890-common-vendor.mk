@@ -95,3 +95,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/universal8890-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
   vendor/samsung/universal8890-common/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
   vendor/samsung/universal8890-common/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so
+
+# Create Mali links for Vulkan and OpenCL
+PRODUCT_PACKAGES += libGLES_mali
