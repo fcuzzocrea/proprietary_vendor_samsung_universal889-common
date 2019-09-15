@@ -18,6 +18,12 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter exynos8890, $(TARGET_SOC)),)
 
+ifeq ($(WITH_EXYNOS_BSP),)
+
+include $(LOCAL_PATH)/apps/Android.mk
+
+endif
+
 include $(LOCAL_PATH)/apps/Android.mk
 
 include $(CLEAR_VARS)
