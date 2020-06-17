@@ -48,24 +48,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal8890-common/proprietary/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal8890-common/proprietary/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libGrallocWrapper.so \
-    vendor/samsung/universal8890-common/proprietary/lib/libblurdetection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libblurdetection.so \
-    vendor/samsung/universal8890-common/proprietary/lib/libblurdetection_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libblurdetection_interface.so \
     vendor/samsung/universal8890-common/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera.so \
     vendor/samsung/universal8890-common/proprietary/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera3.so \
     vendor/samsung/universal8890-common/proprietary/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosdisplay.so \
     vendor/samsung/universal8890-common/proprietary/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosgscaler.so \
     vendor/samsung/universal8890-common/proprietary/lib/libexynosscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosscaler.so \
-    vendor/samsung/universal8890-common/proprietary/lib/libflashedlls_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libflashedlls_interface.so \
     vendor/samsung/universal8890-common/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
     vendor/samsung/universal8890-common/proprietary/lib/libhdmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdmi.so \
     vendor/samsung/universal8890-common/proprietary/lib/libhwcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwcutils.so \
     vendor/samsung/universal8890-common/proprietary/lib/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwjpeg.so \
-    vendor/samsung/universal8890-common/proprietary/lib/libimage_flashed_lls.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimage_flashed_lls.so \
     vendor/samsung/universal8890-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
     vendor/samsung/universal8890-common/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
     vendor/samsung/universal8890-common/proprietary/lib/libskeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libskeymaster.so \
-    vendor/samsung/universal8890-common/proprietary/lib/libsmartfocus_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsmartfocus_interface.so \
-    vendor/samsung/universal8890-common/proprietary/lib/libsmartfocusengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsmartfocusengine.so \
     vendor/samsung/universal8890-common/proprietary/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefrighthw.so \
     vendor/samsung/universal8890-common/proprietary/lib/libuniapi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniapi.so \
     vendor/samsung/universal8890-common/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
@@ -96,25 +90,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libExynosOMX_Core.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libGrallocWrapper.so \
-    vendor/samsung/universal8890-common/proprietary/lib64/libblurdetection.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libblurdetection.so \
-    vendor/samsung/universal8890-common/proprietary/lib64/libblurdetection_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libblurdetection_interface.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynoscamera.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynoscamera3.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosdisplay.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosgscaler.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosscaler.so \
-    vendor/samsung/universal8890-common/proprietary/lib64/libflashedlls_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libflashedlls_interface.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libhdmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdmi.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libhr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhr.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libhwcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwcutils.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwjpeg.so \
-    vendor/samsung/universal8890-common/proprietary/lib64/libimage_flashed_lls.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimage_flashed_lls.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorlistener.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libskeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libskeymaster.so \
-    vendor/samsung/universal8890-common/proprietary/lib64/libsmartfocus_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsmartfocus_interface.so \
-    vendor/samsung/universal8890-common/proprietary/lib64/libsmartfocusengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsmartfocusengine.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefrighthw.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libuniapi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libuniapi.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libuniplugin.so \
@@ -211,7 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/thermal.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
@@ -257,7 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcRegistry.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
