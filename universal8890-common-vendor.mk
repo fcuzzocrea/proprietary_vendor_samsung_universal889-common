@@ -274,9 +274,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so
 
 ifeq ($(WITH_EXYNOS_BSP),)
-PRODUCT_COPY_FILES += \
-    vendor/samsung/universal8890-common/proprietary/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
-    vendor/samsung/universal8890-common/proprietary/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
 endif
 
 # Create Mali links for Vulkan and OpenCL
