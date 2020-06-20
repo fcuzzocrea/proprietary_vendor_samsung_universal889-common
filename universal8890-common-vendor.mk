@@ -139,11 +139,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
-    vendor/samsung/universal8890-common/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
-    vendor/samsung/universal8890-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
@@ -154,6 +152,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.bin \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/plmn_delta_chn.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_chn.bin \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_clm.blob \
@@ -194,11 +196,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/firmware/setfile_imx260.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx260.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/firmware/setfile_imx260_d.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx260_d.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/gatekeeper.exynos8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos8890.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/gatekeeper.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/thermal.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal8890.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
@@ -237,14 +237,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/gatekeeper.exynos8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos8890.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/gatekeeper.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/thermal.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcRegistry.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
