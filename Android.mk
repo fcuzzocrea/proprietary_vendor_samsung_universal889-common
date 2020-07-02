@@ -18,9 +18,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter herolte hero2lte,$(TARGET_DEVICE)),)
 
-
-ifeq ($(WITH_EXYNOS_BSP),)
-endif
 include $(CLEAR_VARS)
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := samsung
