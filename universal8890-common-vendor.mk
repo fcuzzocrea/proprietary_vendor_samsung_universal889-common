@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/lib/libhwcutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwcutils.so \
     vendor/samsung/universal8890-common/proprietary/lib/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwjpeg.so \
     vendor/samsung/universal8890-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
+    vendor/samsung/universal8890-common/proprietary/lib/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecril-client.so \
     vendor/samsung/universal8890-common/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
     vendor/samsung/universal8890-common/proprietary/lib/libskeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libskeymaster.so \
     vendor/samsung/universal8890-common/proprietary/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefrighthw.so \
@@ -203,10 +204,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-external-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/gatekeeper.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/thermal.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal8890.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
@@ -237,7 +238,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_xmlparser.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so \
-    vendor/samsung/universal8890-common/proprietary/lib/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecril-client.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
@@ -253,7 +253,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/gatekeeper.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
@@ -261,6 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/thermal.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriverArm.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
