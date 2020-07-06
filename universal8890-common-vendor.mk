@@ -78,6 +78,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal8890-common/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal8890-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.WMV.Decoder.so \
+    vendor/samsung/universal8890-common/proprietary/lib/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.camera.device@1.0.so \
+    vendor/samsung/universal8890-common/proprietary/lib/vendor.samsung.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.camera.device@3.2.so \
+    vendor/samsung/universal8890-common/proprietary/lib/vendor.samsung.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.camera.device@3.3.so \
+    vendor/samsung/universal8890-common/proprietary/lib/vendor.samsung.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.camera.device@3.4.so \
+    vendor/samsung/universal8890-common/proprietary/lib/vendor.samsung.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.camera.provider@2.4.so \
     vendor/samsung/universal8890-common/proprietary/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/universal8890-common/proprietary/lib/vendor.samsung.hardware.radio.channel@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.radio.channel@1.0.so \
     vendor/samsung/universal8890-common/proprietary/lib/vendor.samsung.hardware.radio.secbridge@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.radio.secbridge@1.0.so \
@@ -120,6 +125,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal8890-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal8890-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
+    vendor/samsung/universal8890-common/proprietary/lib64/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.camera.device@1.0.so \
+    vendor/samsung/universal8890-common/proprietary/lib64/vendor.samsung.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.camera.device@3.2.so \
+    vendor/samsung/universal8890-common/proprietary/lib64/vendor.samsung.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.camera.device@3.3.so \
+    vendor/samsung/universal8890-common/proprietary/lib64/vendor.samsung.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.camera.device@3.4.so \
+    vendor/samsung/universal8890-common/proprietary/lib64/vendor.samsung.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.camera.provider@2.4.so \
     vendor/samsung/universal8890-common/proprietary/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/universal8890-common/proprietary/lib64/vendor.samsung.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.nfc@1.1.so \
     vendor/samsung/universal8890-common/proprietary/lib64/vendor.samsung.hardware.radio.channel@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.radio.channel@1.0.so \
@@ -137,6 +147,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/sec.android.hardware.nfc@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.1-service \
+    vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
@@ -147,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/sec.android.hardware.nfc@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec.android.hardware.nfc@1.1-service.rc \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
@@ -199,14 +211,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-external-impl.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/gatekeeper.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/thermal.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal8890.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
@@ -245,13 +255,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.bio.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.2-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.3-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.4-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/gatekeeper.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.universal8890.so \
@@ -259,6 +270,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/thermal.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.universal8890.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriverArm.so \
@@ -291,6 +303,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.bio.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@1.0-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.2-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.3-impl.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.4-impl.so
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
