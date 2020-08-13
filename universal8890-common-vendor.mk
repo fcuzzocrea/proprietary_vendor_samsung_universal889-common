@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/universal8890-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/samsung/universal8890-common/proprietary/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosHWCService.so \
     vendor/samsung/universal8890-common/proprietary/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal8890-common/proprietary/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Resourcemanager.so \
