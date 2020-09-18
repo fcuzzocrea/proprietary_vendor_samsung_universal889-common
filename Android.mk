@@ -18,6 +18,9 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter herolte hero2lte,$(TARGET_DEVICE)),)
 
+
+ifeq ($(WITH_EXYNOS_BSP),)
+endif
 include $(CLEAR_VARS)
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := samsung
@@ -31,8 +34,11 @@ LOCAL_MODULE_PATH_32 := $($(TARGET_2ND_ARCH_VAR_PREFIX)TARGET_OUT_VENDOR_SHARED_
 LOCAL_MODULE_PATH_64 := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
 SYMLINKS := $(TARGET_OUT)/vendor
 $(SYMLINKS):
+	@echo "Symlink: vulkan.exynos5.so"
 	@mkdir -p $@/lib/hw
 	@mkdir -p $@/lib64/hw
+	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.exynos5.so
+	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib64/hw/vulkan.exynos5.so
 	@echo "Symlink: libOpenCL.so"
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib64/libOpenCL.so
